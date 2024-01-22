@@ -1,5 +1,5 @@
 # file to create code on and test
-first_name = "Ben"
-last_name = "West"
-age = 32
-print(first_name + " " + last_name)
+first_name = input("Enter your first name: ")
+last_name = input("Enter your last name: ")
+age = input("Enter your age: ")
+print(first_name + " " + last_name + " is " + age + " years old")
