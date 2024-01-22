@@ -1,9 +1,9 @@
 # file to create code on and test
 # users first name
-first_name = "Ben"
+first_name = input("Enter your first name: ")
 # users last name
-last_name = "West"
+last_name = input("Enter your last name: ")
 # users age
-age = 32
+age = input("Enter your age: ")
 # statement to print user information
-print(first_name + " " + last_name)
+print(first_name + " " + last_name + " is " + age + " years old")
